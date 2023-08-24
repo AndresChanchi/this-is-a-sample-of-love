@@ -1,0 +1,35 @@
+{
+  "name": "this-is-a-sample-of-love",
+  "version": "1.0.0",
+  "description": "I'm not sure what this love project is going to deal with",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndresChanchi/this-is-a-sample-of-love.git",
+	"sshUrl": "git@github.com:AndresChanchi/this-is-a-sample-of-love.git"
+  },
+  "keywords": [
+    "Love",
+    "Learning",
+    "NPM",
+    "Eggs",
+    "Sausages",
+    "Rice"
+  ],
+  "author": "Andres chanchi <@andreschanchi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndresChanchi/this-is-a-sample-of-love/issues"
+  },
+  "homepage": "https://github.com/AndresChanchi/this-is-a-sample-of-love#readme",
+   "bin": {
+        "random-str-msg": "./bin/global.js"
+    },
+    "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
